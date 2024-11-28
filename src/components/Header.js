@@ -9,7 +9,7 @@ const Header = () => {
       color="primary"
       className="header-title"
     >
-      Mustafa Weather LabTest
+      Weather LabTest
     </Typography>
   );
 };
