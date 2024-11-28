@@ -27,4 +27,60 @@
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
 }
 
+.weather-info {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  padding: 20px;
+}
 
+.weather-icon {
+  margin: 10px;
+  animation: pulse 1.5s infinite;
+}
+
+.temperature {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #e74c3c;
+  margin-top: 10px;
+}
+
+.weather-description {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.humidity {
+  font-size: 1rem;
+  color: #2980b9;
+}
+
+.search-button {
+  background-color: #8e44ad;
+  &:hover {
+    background-color: #9b59b6;
+  }
+}
+
+.spinner {
+  margin-top: 20px;
+  color: #8e44ad;
+}
+
+.empty-message, .error-message {
+  font-size: 1.2rem;
+  color: #ecf0f1;
+  font-weight: 400;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
